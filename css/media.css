@@ -81,9 +81,9 @@
     text-align: center;
   }
 
-  .hero-img-box {
-    display: flex;
-    justify-content: center;
+  .hero-img {
+    display: grid;
+    justify-self: end;
   }
 
   .delivered-meals {
@@ -227,6 +227,10 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+  
+  .hero-img {
+    width: 80%;
+  }
 }
 
 /* ******************************* */
@@ -260,6 +264,8 @@
 
   .hero-img {
     width: 80%;
+    display: grid;
+    justify-self: end;
   }
 
   .logos img {
